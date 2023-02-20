@@ -1,0 +1,55 @@
+
+    body{
+            background-image: url(bak10.jpg);
+            /* background-size: contain; */
+            font-family:"Space Mono";
+            font-size: 0.7cm;
+        }
+h3
+{
+    font-size:0.7cm;
+    color: white;
+    text-align: center;
+}
+        .grid-container 
+        {
+  display: grid;
+  grid-template-columns: 570px 570px;
+gap: 65px;
+margin-left:70px;
+}
+
+.grid-item
+{
+    background-image: url(back6.jpg);
+    padding:30px;
+    color:white;
+border: 3px solid brown;
+border-radius: 15px;
+box-shadow: 9px 9px 5px wheat;
+text-shadow:5px 5px 5px rgba(189, 47, 4, 0.801);
+}
+img
+{
+    width:200px;
+    height:150px;
+    margin-left: 60px;
+    border-radius: 17px;
+}
+#xyz
+{
+    margin-left: 30px;
+    width:400px;
+
+}
+.cha
+{
+    background-color: white;
+    width: 250px;
+}
+a
+{
+    font-size: 1cm;
+    font-weight: bolder;
+    color: white;
+}

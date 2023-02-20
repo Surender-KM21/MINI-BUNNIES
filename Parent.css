@@ -1,0 +1,56 @@
+body
+{
+    background-image:url(back6.jpg);
+    background-repeat: repeat;
+    font-family:Indie Flower ;
+    color:white;
+    
+ }
+
+img
+{
+    box-shadow: 5px 5px 20px white;
+width:550px;
+height: 550px;
+margin-left: 400px;
+border-radius: 30px;
+}
+#imgd{
+    background-color: white;
+}
+a
+{
+    text-decoration: none;
+    color:white;
+}
+h2{
+    font-size: 1.4cm;
+    text-align: center;
+    text-decoration: dotted;
+    color:white;
+    text-shadow: 5px 5px 2px grey;
+}
+h3{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 0.7cm;
+}
+.button
+{
+    height:50px;
+    width:100px;
+    margin-left:620px;
+    text-align: center;
+    font-size:0.9cm;
+    padding: 6px;
+    background-color:rgb(228, 135, 48);
+    box-shadow: 5px 5px 20px white;
+    border-start-end-radius:10px ;
+    border-end-start-radius:10px ;
+    border:2px solid grey;
+    transition: transform .2s;
+}
+.button:hover
+{
+    transform:scale(1.2);
+}

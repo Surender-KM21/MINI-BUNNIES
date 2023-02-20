@@ -1,0 +1,16 @@
+body
+{
+    background-image:url(back6.jpg);
+}
+h3{
+    text-align: center;
+    font-size: 1.5cm;
+    font-weight:bolder;
+    color:rgb(156, 83, 14);
+    text-shadow: 7px 7px 7px white;
+}
+iframe{
+    border: 2px solid rgb(221, 122, 29);
+    border-radius: 10px;
+    margin-left: 60px;
+}

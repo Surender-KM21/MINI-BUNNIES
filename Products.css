@@ -1,0 +1,85 @@
+body
+{
+    background-image:url(back4.png);
+    background-repeat: repeat;
+    background-size: contain;
+ }
+
+h2{
+
+    text-align: center;
+    font-size: 1.5cm;
+    font-weight:bolder;
+    color:rgb(156, 83, 14);
+    text-shadow: 7px 7px 7px orange;
+
+}
+h4
+{
+  text-align: center;
+  font-size: 1cm;
+  color: rgb(173, 88, 17);
+}
+img
+{
+  width: 200px;
+  height:250px;
+   border-radius: 10px;
+   border: 2px solid rgb(219, 146, 72) ;
+   transition: transform .2s;
+}
+img:hover
+{
+  transform: scale(1.2);  
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+gap: 85px;
+}
+.grid-item
+{
+  margin-left: 70px;
+}
+
+h3
+{
+ 
+  color:rgb(173, 88, 17);
+  /* outline-style: dashed;
+  outline-color: brown; */
+  text-align: center;
+  font-style: italic;
+  font-size: 1.48cm;
+text-shadow: 5px 5px 7px rgb(158, 83, 8) ;
+text-decoration: un;
+}
+#dressd,#soap,#las,#diap,#crad,#hc,#bla,#toys
+{
+  display: none;
+}
+
+#cen
+{
+  text-align: center;
+}
+#plus,#minus,#plus1,#plus2,#plus3,#plus4,#plus5,#plus6,#plus7,#minus1,#minus2,#minus3,#minus4,#minus5,#minus6,#minus7
+{
+  width:30px;
+  height:30px;
+  border-radius: 30px;
+  margin-top: 40px;
+
+}
+#minus,#minus1,#minus2,#minus3,#minus4,#minus5,#minus6,#minus7
+{
+  display: none;
+}
+
+.dofun
+{
+  float:right;
+}
+
+
+  
